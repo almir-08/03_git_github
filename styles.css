@@ -1,0 +1,143 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+#main-menu {
+  margin: 44px 0 144px 76px;
+}
+
+#img-logo {
+  width: 568px;
+  height: 500px;
+  margin-left: 90px;
+  margin-right: 50px;
+  display: inline-block;
+}
+
+.link-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #989D9C;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 23px;
+}
+
+#button-header {
+  background: #665AE1;
+  border-radius: 20.5px;
+  height: 41px;
+  width: 130px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+main {
+  margin-bottom: 183px;
+}
+
+#explore {
+  display: inline-block;
+}
+
+#explore-title {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  color: #515151;
+}
+
+#explore-subtitle {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 71px;
+  color: #515151;
+}
+
+#explore-content {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  width: 515px;
+  margin-top: 32px;
+  margin-bottom: 65px;
+}
+
+#explore-button {
+  background: #ADFF00;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+  width: 239px;
+  height: 64px;
+  filter: drop-shadow(8px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media (max-width: 800px) {
+  header {
+    display: none;
+  }
+
+  main {
+    margin-top: 50%;
+    justify-content: center;
+  }
+
+  #img-logo {
+    display: static;
+    width: 354px;
+    height: 317px;
+    padding: 20px;
+  }
+
+  #explore {
+    display: static;
+    position: relative;
+    left: 140px;
+    width: 100%;
+  }
+
+  #explore-title {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    color: #515151;
+    width: 263px;
+    height: 52px;
+    margin-bottom: 7px;
+  }
+
+  #explore-subtitle {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #515151;
+    width: 232px;
+    height: 37px;
+    margin-bottom: 17px;
+    position: relative;
+    left: 15px;
+  }
+
+  #explore-content {
+    display: none;
+  }
+
+  #explore-button {
+    position: relative;
+    left: 10px;
+  }
+}
